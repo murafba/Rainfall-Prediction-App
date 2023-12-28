@@ -10,3 +10,10 @@ The software required to support the operation of this application is as follows
 3. Java Development Kit (JDK) version 20 and above
 
 ## 3. INSTALLING THE PROJECT
+Installing the application via Git Bash CLI:
++ Opeh Git Bash
++ Choose the download location folder
+  For example:
+  'cd d://downloads'
++ Type 'git clone https://github.com/murafba/Rainfall-Prediction-App.git'
++ Check the download folder and run the application
