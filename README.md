@@ -21,11 +21,11 @@ Here are the steps to run the app:
 1. Launch NetBeans.
 2. Open the downloaded project.
 > [!IMPORTANT]
-   > If the default JDK used is below version 20, it needs to be changed. Here are the steps:
-   > a. Right-click on the project.
-   > b. Select *properties*.
-   > c. Choose the *Libraries* menu.
-   > d. in the Java Platform dropdown menu, select JDK version 20 or above
+> If the default JDK used is below version 20, it needs to be changed. Here are the steps:
+> a. Right-click on the project.
+> b. Select *properties*.
+> c. Choose the *Libraries* menu.
+> d. in the Java Platform dropdown menu, select JDK version 20 or above
 4. Open the *gui* package and select the **Main.java** class.
 5. Run the application.
 
