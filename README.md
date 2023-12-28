@@ -15,5 +15,5 @@ Installing the application via Git Bash CLI:
 + Choose the download location folder
   For example:
   'cd d://downloads'
-+ Type 'git clone https://github.com/murafba/Rainfall-Prediction-App.git'
++ Type `git clone https://github.com/murafba/Rainfall-Prediction-App.git`
 + Check the download folder and run the application
