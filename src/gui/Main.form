@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="container" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="container" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="container">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="74" green="48" red="42" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1280, 720]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="mainContent" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="bmkgLogo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="unsriLogo" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Component id="taglineLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="headerLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="footerLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="393" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="bmkgLogo" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="headerLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="taglineLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="unsriLogo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="mainContent" min="-2" pref="538" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="footerLabel" min="-2" pref="17" max="-2" attributes="0"/>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="mainContent">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[1280, 500]"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="homeTab">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="dd" green="e4" red="d9" type="rgb"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[1280, 500]"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="HOME">
+                    <Property name="tabTitle" type="java.lang.String" value="HOME"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="pleaseWaitLabel" pref="305" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="933" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="mapeLabel" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <Component id="fisLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="32767" attributes="0"/>
+                                                          <Component id="colon2" min="-2" pref="4" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <Component id="fisGALabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="colon1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="fisGAMAPE" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="fisTsukamotoMAPE" min="-2" pref="98" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="mapeLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="mapeLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="geneLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="popLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                          <Component id="geneField" pref="113" max="32767" attributes="0"/>
+                                                          <Component id="popField" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="crLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="mrLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="mrField" pref="112" max="32767" attributes="0"/>
+                                                          <Component id="crField" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="popLabel1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="executionTimeFieldFISGA" min="-2" pref="150" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="datasetPredictButton" alignment="0" min="-2" pref="289" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="396" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="homeTitle" min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="840" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="homeTitle" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="mapeLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="fisGALabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="colon1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="fisGAMAPE" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="fisLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="colon2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="fisTsukamotoMAPE" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="mapeLabel1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="mapeLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="popLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="popField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="geneLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="geneField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="crLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="crField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="mrLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mrField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="datasetPredictButton" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="popLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="executionTimeFieldFISGA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jScrollPane1" min="-2" pref="396" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+                          <Component id="pleaseWaitLabel" min="-2" pref="45" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="datasetTable">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="14" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="11" rowCount="60">
+                            <Column editable="false" title="No" type="java.lang.Object">
+                              <Data value="1"/>
+                              <Data value="2"/>
+                              <Data value="3"/>
+                              <Data value="4"/>
+                              <Data value="5"/>
+                              <Data value="6"/>
+                              <Data value="7"/>
+                              <Data value="8"/>
+                              <Data value="9"/>
+                              <Data value="10"/>
+                              <Data value="11"/>
+                              <Data value="12"/>
+                              <Data value="13"/>
+                              <Data value="14"/>
+                              <Data value="15"/>
+                              <Data value="16"/>
+                              <Data value="17"/>
+                              <Data value="18"/>
+                              <Data value="19"/>
+                              <Data value="20"/>
+                              <Data value="21"/>
+                              <Data value="22"/>
+                              <Data value="23"/>
+                              <Data value="24"/>
+                              <Data value="25"/>
+                              <Data value="26"/>
+                              <Data value="27"/>
+                              <Data value="28"/>
+                              <Data value="29"/>
+                              <Data value="30"/>
+                              <Data value="31"/>
+                              <Data value="32"/>
+                              <Data value="33"/>
+                              <Data value="34"/>
+                              <Data value="35"/>
+                              <Data value="36"/>
+                              <Data value="37"/>
+                              <Data value="38"/>
+                              <Data value="39"/>
+                              <Data value="40"/>
+                              <Data value="41"/>
+                              <Data value="42"/>
+                              <Data value="43"/>
+                              <Data value="44"/>
+                              <Data value="45"/>
+                              <Data value="46"/>
+                              <Data value="47"/>
+                              <Data value="48"/>
+                              <Data value="49"/>
+                              <Data value="50"/>
+                              <Data value="51"/>
+                              <Data value="52"/>
+                              <Data value="53"/>
+                              <Data value="54"/>
+                              <Data value="55"/>
+                              <Data value="56"/>
+                              <Data value="57"/>
+                              <Data value="58"/>
+                              <Data value="59"/>
+                              <Data value="60"/>
+                            </Column>
+                            <Column editable="false" title="Period" type="java.lang.Object">
+                              <Data value="Jan-18"/>
+                              <Data value="Feb-18"/>
+                              <Data value="Mar-18"/>
+                              <Data value="Apr-18"/>
+                              <Data value="May-18"/>
+                              <Data value="Jun-18"/>
+                              <Data value="Jul-18"/>
+                              <Data value="Aug-18"/>
+                              <Data value="Sep-18"/>
+                              <Data value="Oct-18"/>
+                              <Data value="Nov-18"/>
+                              <Data value="Dec-18"/>
+                              <Data value="Jan-19"/>
+                              <Data value="Feb-19"/>
+                              <Data value="Mar-19"/>
+                              <Data value="Apr-19"/>
+                              <Data value="May-19"/>
+                              <Data value="Jun-19"/>
+                              <Data value="Jul-19"/>
+                              <Data value="Aug-19"/>
+                              <Data value="Sep-19"/>
+                              <Data value="Oct-19"/>
+                              <Data value="Nov-19"/>
+                              <Data value="Dec-19"/>
+                              <Data value="Jan-20"/>
+                              <Data value="Feb-20"/>
+                              <Data value="Mar-20"/>
+                              <Data value="Apr-20"/>
+                              <Data value="May-20"/>
+                              <Data value="Jun-20"/>
+                              <Data value="Jul-20"/>
+                              <Data value="Aug-20"/>
+                              <Data value="Sep-20"/>
+                              <Data value="Oct-20"/>
+                              <Data value="Nov-20"/>
+                              <Data value="Dec-20"/>
+                              <Data value="Jan-21"/>
+                              <Data value="Feb-21"/>
+                              <Data value="Mar-21"/>
+                              <Data value="Apr-21"/>
+                              <Data value="May-21"/>
+                              <Data value="Jun-21"/>
+                              <Data value="Jul-21"/>
+                              <Data value="Aug-21"/>
+                              <Data value="Sep-21"/>
+                              <Data value="Oct-21"/>
+                              <Data value="Nov-21"/>
+                              <Data value="Dec-21"/>
+                              <Data value="Jan-22"/>
+                              <Data value="Feb-22"/>
+                              <Data value="Mar-22"/>
+                              <Data value="Apr-22"/>
+                              <Data value="May-22"/>
+                              <Data value="Jun-22"/>
+                              <Data value="Jul-22"/>
+                              <Data value="Aug-22"/>
+                              <Data value="Sep-22"/>
+                              <Data value="Oct-22"/>
+                              <Data value="Nov-22"/>
+                              <Data value="Dec-22"/>
+                            </Column>
+                            <Column editable="false" title="Temperature" type="java.lang.Object">
+                              <Data value="27.10"/>
+                              <Data value="26.50"/>
+                              <Data value="26.80"/>
+                              <Data value="27.60"/>
+                              <Data value="27.60"/>
+                              <Data value="27.80"/>
+                              <Data value="27.70"/>
+                              <Data value="27.90"/>
+                              <Data value="27.60"/>
+                              <Data value="28.10"/>
+                              <Data value="27.50"/>
+                              <Data value="27.40"/>
+                              <Data value="23.20"/>
+                              <Data value="23.20"/>
+                              <Data value="22.10"/>
+                              <Data value="22.80"/>
+                              <Data value="24.20"/>
+                              <Data value="23.00"/>
+                              <Data value="23.00"/>
+                              <Data value="22.40"/>
+                              <Data value="22.00"/>
+                              <Data value="22.80"/>
+                              <Data value="23.60"/>
+                              <Data value="22.40"/>
+                              <Data value="23.00"/>
+                              <Data value="23.00"/>
+                              <Data value="22.40"/>
+                              <Data value="22.80"/>
+                              <Data value="22.80"/>
+                              <Data value="22.00"/>
+                              <Data value="23.20"/>
+                              <Data value="23.00"/>
+                              <Data value="22.60"/>
+                              <Data value="21.60"/>
+                              <Data value="22.80"/>
+                              <Data value="22.00"/>
+                              <Data value="27.70"/>
+                              <Data value="28.20"/>
+                              <Data value="28.80"/>
+                              <Data value="29.20"/>
+                              <Data value="29.80"/>
+                              <Data value="29.80"/>
+                              <Data value="29.50"/>
+                              <Data value="28.80"/>
+                              <Data value="29.20"/>
+                              <Data value="30.10"/>
+                              <Data value="28.90"/>
+                              <Data value="28.80"/>
+                              <Data value="27.30"/>
+                              <Data value="27.50"/>
+                              <Data value="28.10"/>
+                              <Data value="28.40"/>
+                              <Data value="28.50"/>
+                              <Data value="27.50"/>
+                              <Data value="27.70"/>
+                              <Data value="27.50"/>
+                              <Data value="27.60"/>
+                              <Data value="27.40"/>
+                              <Data value="28.10"/>
+                              <Data value="27.40"/>
+                            </Column>
+                            <Column editable="false" title="Humidity" type="java.lang.Object">
+                              <Data value="86.00"/>
+                              <Data value="89.00"/>
+                              <Data value="88.00"/>
+                              <Data value="87.00"/>
+                              <Data value="87.00"/>
+                              <Data value="87.00"/>
+                              <Data value="86.00"/>
+                              <Data value="85.00"/>
+                              <Data value="85.00"/>
+                              <Data value="88.00"/>
+                              <Data value="91.00"/>
+                              <Data value="91.00"/>
+                              <Data value="71.00"/>
+                              <Data value="60.00"/>
+                              <Data value="66.00"/>
+                              <Data value="68.00"/>
+                              <Data value="65.00"/>
+                              <Data value="63.00"/>
+                              <Data value="55.00"/>
+                              <Data value="49.00"/>
+                              <Data value="44.00"/>
+                              <Data value="45.00"/>
+                              <Data value="45.00"/>
+                              <Data value="60.00"/>
+                              <Data value="57.00"/>
+                              <Data value="62.00"/>
+                              <Data value="59.00"/>
+                              <Data value="60.00"/>
+                              <Data value="73.00"/>
+                              <Data value="59.00"/>
+                              <Data value="64.00"/>
+                              <Data value="51.00"/>
+                              <Data value="54.00"/>
+                              <Data value="55.00"/>
+                              <Data value="55.00"/>
+                              <Data value="58.00"/>
+                              <Data value="82.10"/>
+                              <Data value="80.90"/>
+                              <Data value="78.50"/>
+                              <Data value="77.30"/>
+                              <Data value="77.70"/>
+                              <Data value="74.40"/>
+                              <Data value="73.40"/>
+                              <Data value="77.40"/>
+                              <Data value="78.90"/>
+                              <Data value="78.30"/>
+                              <Data value="80.50"/>
+                              <Data value="83.30"/>
+                              <Data value="87.00"/>
+                              <Data value="86.00"/>
+                              <Data value="86.00"/>
+                              <Data value="87.00"/>
+                              <Data value="85.00"/>
+                              <Data value="86.00"/>
+                              <Data value="80.00"/>
+                              <Data value="84.00"/>
+                              <Data value="86.00"/>
+                              <Data value="88.00"/>
+                              <Data value="88.00"/>
+                              <Data value="88.00"/>
+                            </Column>
+                            <Column editable="false" title="Air Pressure" type="java.lang.Object">
+                              <Data value="1008.40"/>
+                              <Data value="1010.80"/>
+                              <Data value="1009.70"/>
+                              <Data value="1009.20"/>
+                              <Data value="1009.90"/>
+                              <Data value="1010.20"/>
+                              <Data value="1010.60"/>
+                              <Data value="1010.60"/>
+                              <Data value="1011.50"/>
+                              <Data value="1011.00"/>
+                              <Data value="1010.60"/>
+                              <Data value="1010.20"/>
+                              <Data value="1010.81"/>
+                              <Data value="1011.64"/>
+                              <Data value="1010.58"/>
+                              <Data value="1009.90"/>
+                              <Data value="1010.09"/>
+                              <Data value="1009.83"/>
+                              <Data value="1010.85"/>
+                              <Data value="1011.25"/>
+                              <Data value="1012.02"/>
+                              <Data value="1010.52"/>
+                              <Data value="1010.39"/>
+                              <Data value="1010.29"/>
+                              <Data value="1010.43"/>
+                              <Data value="1010.90"/>
+                              <Data value="1010.10"/>
+                              <Data value="1010.30"/>
+                              <Data value="1009.20"/>
+                              <Data value="1009.70"/>
+                              <Data value="1009.10"/>
+                              <Data value="1009.70"/>
+                              <Data value="1009.90"/>
+                              <Data value="1009.50"/>
+                              <Data value="1009.90"/>
+                              <Data value="1009.10"/>
+                              <Data value="1008.30"/>
+                              <Data value="1008.90"/>
+                              <Data value="1008.30"/>
+                              <Data value="1008.90"/>
+                              <Data value="1007.70"/>
+                              <Data value="1009.00"/>
+                              <Data value="1008.70"/>
+                              <Data value="1009.30"/>
+                              <Data value="1008.70"/>
+                              <Data value="1008.40"/>
+                              <Data value="1007.40"/>
+                              <Data value="1009.10"/>
+                              <Data value="1010.40"/>
+                              <Data value="1009.10"/>
+                              <Data value="1008.80"/>
+                              <Data value="1009.00"/>
+                              <Data value="1008.70"/>
+                              <Data value="1009.00"/>
+                              <Data value="1009.90"/>
+                              <Data value="1009.30"/>
+                              <Data value="1010.40"/>
+                              <Data value="1010.10"/>
+                              <Data value="1009.40"/>
+                              <Data value="1008.00"/>
+                            </Column>
+                            <Column editable="false" title="Wind Velocity" type="java.lang.Object">
+                              <Data value="4.00"/>
+                              <Data value="4.00"/>
+                              <Data value="3.00"/>
+                              <Data value="3.00"/>
+                              <Data value="3.00"/>
+                              <Data value="4.00"/>
+                              <Data value="4.00"/>
+                              <Data value="4.00"/>
+                              <Data value="4.00"/>
+                              <Data value="4.00"/>
+                              <Data value="3.00"/>
+                              <Data value="3.00"/>
+                              <Data value="4.40"/>
+                              <Data value="3.41"/>
+                              <Data value="3.81"/>
+                              <Data value="3.14"/>
+                              <Data value="3.51"/>
+                              <Data value="3.56"/>
+                              <Data value="4.02"/>
+                              <Data value="4.85"/>
+                              <Data value="4.89"/>
+                              <Data value="4.50"/>
+                              <Data value="3.20"/>
+                              <Data value="3.90"/>
+                              <Data value="4.02"/>
+                              <Data value="4.30"/>
+                              <Data value="3.62"/>
+                              <Data value="3.10"/>
+                              <Data value="3.33"/>
+                              <Data value="3.50"/>
+                              <Data value="3.56"/>
+                              <Data value="4.30"/>
+                              <Data value="3.90"/>
+                              <Data value="3.26"/>
+                              <Data value="3.00"/>
+                              <Data value="3.44"/>
+                              <Data value="3.90"/>
+                              <Data value="4.10"/>
+                              <Data value="2.80"/>
+                              <Data value="2.30"/>
+                              <Data value="2.40"/>
+                              <Data value="2.80"/>
+                              <Data value="3.30"/>
+                              <Data value="3.10"/>
+                              <Data value="3.00"/>
+                              <Data value="2.80"/>
+                              <Data value="2.00"/>
+                              <Data value="3.00"/>
+                              <Data value="2.00"/>
+                              <Data value="2.00"/>
+                              <Data value="2.00"/>
+                              <Data value="3.00"/>
+                              <Data value="4.00"/>
+                              <Data value="2.00"/>
+                              <Data value="4.00"/>
+                              <Data value="4.00"/>
+                              <Data value="5.00"/>
+                              <Data value="5.00"/>
+                              <Data value="3.00"/>
+                              <Data value="3.00"/>
+                            </Column>
+                            <Column editable="false" title="Rainfall" type="java.lang.Object">
+                              <Data value="326.00"/>
+                              <Data value="311.00"/>
+                              <Data value="317.00"/>
+                              <Data value="302.00"/>
+                              <Data value="262.00"/>
+                              <Data value="113.00"/>
+                              <Data value="68.00"/>
+                              <Data value="52.00"/>
+                              <Data value="131.00"/>
+                              <Data value="138.00"/>
+                              <Data value="244.00"/>
+                              <Data value="231.00"/>
+                              <Data value="176.00"/>
+                              <Data value="307.40"/>
+                              <Data value="251.00"/>
+                              <Data value="349.50"/>
+                              <Data value="166.90"/>
+                              <Data value="143.00"/>
+                              <Data value="96.00"/>
+                              <Data value="40.00"/>
+                              <Data value="64.90"/>
+                              <Data value="75.90"/>
+                              <Data value="153.00"/>
+                              <Data value="242.20"/>
+                              <Data value="286.00"/>
+                              <Data value="298.50"/>
+                              <Data value="367.90"/>
+                              <Data value="396.50"/>
+                              <Data value="264.70"/>
+                              <Data value="188.00"/>
+                              <Data value="126.00"/>
+                              <Data value="48.60"/>
+                              <Data value="152.00"/>
+                              <Data value="251.10"/>
+                              <Data value="333.60"/>
+                              <Data value="228.00"/>
+                              <Data value="235.70"/>
+                              <Data value="181.40"/>
+                              <Data value="251.90"/>
+                              <Data value="127.60"/>
+                              <Data value="144.80"/>
+                              <Data value="60.00"/>
+                              <Data value="124.70"/>
+                              <Data value="183.00"/>
+                              <Data value="229.00"/>
+                              <Data value="118.10"/>
+                              <Data value="421.40"/>
+                              <Data value="285.50"/>
+                              <Data value="241.00"/>
+                              <Data value="155.00"/>
+                              <Data value="192.00"/>
+                              <Data value="589.00"/>
+                              <Data value="117.00"/>
+                              <Data value="247.00"/>
+                              <Data value="52.00"/>
+                              <Data value="107.00"/>
+                              <Data value="180.00"/>
+                              <Data value="477.00"/>
+                              <Data value="211.00"/>
+                              <Data value="266.00"/>
+                            </Column>
+                            <Column editable="false" title="Rainfall FIS" type="java.lang.Object"/>
+                            <Column editable="false" title="APE FIS" type="java.lang.Object"/>
+                            <Column editable="false" title="Rainfall GA" type="java.lang.Object"/>
+                            <Column editable="false" title="APE GA" type="java.lang.Object"/>
+                          </Table>
+                        </Property>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="rowHeight" type="int" value="35"/>
+                        <Property name="showGrid" type="boolean" value="true"/>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="false" resizingAllowed="false"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="homeTitle">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="NSimSun" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="2c" green="26" red="1b" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Banyuasin Regency Climate Data (2018 - 2022)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="datasetPredictButton">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="74" green="84" red="69" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="e7" green="f5" red="f9" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/icon/business.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Predict using FIS &amp; GA"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Click the button to start predicting the rainfall using FIS Tsukamoto and combination FIS Tsukamoto &amp; Genetic Algorithm"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder roundedCorners="true" thickness="3"/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="datasetPredictButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="fisLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="FIS Tsukamoto Method"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="fisTsukamotoMAPE">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fisTsukamotoMAPEActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mapeLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Mean Absolute Percentage Error:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="fisGALabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="FIS Tsukamoto &amp; GA Method"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="colon1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value=":"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="colon2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value=":"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="fisGAMAPE">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fisGAMAPEActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="popField">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="popFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="mrField">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mrFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="geneField">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geneFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="crLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Crossover Rate"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="popLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Populasi"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mrLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mutation Rate"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="geneLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Generasi"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="crField">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="crFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mapeLabel1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Start Prediction"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mapeLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Please fill in GA&apos;s parameters below to start prediction!"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="popLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Waktu Ekskusi Program"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="executionTimeFieldFISGA">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="executionTimeFieldFISGAActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="pleaseWaitLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="manualForecastingTab">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="ed" red="de" type="rgb"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[1280, 500]"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="MANUAL FORECASTING">
+                    <Property name="tabTitle" type="java.lang.String" value="MANUAL FORECASTING"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jScrollPane2" min="-2" pref="240" max="-2" attributes="0"/>
+                                      <Component id="manualTitleDescription1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                                          <Component id="variableTitle" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="temperatureLabel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="temperatureField" min="-2" pref="165" max="-2" attributes="0"/>
+                                                  <Component id="airPressureLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="airPressureField" alignment="0" min="-2" pref="165" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="windLabel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="humidityLabel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="humidityField" min="-2" pref="165" max="-2" attributes="0"/>
+                                                  <Component id="windVelocityField" min="-2" pref="165" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="variableTitleDescription" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="manualPredictButton" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rainfallPredictionTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rainfallPredictionTitle1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="colon" max="32767" attributes="0"/>
+                                              <Component id="colon3" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="rainfallPredictionField" pref="242" max="32767" attributes="0"/>
+                                              <Component id="executionTimeField" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="manualForecastingTitle" min="-2" max="-2" attributes="0"/>
+                              <Component id="manualTitleDescription" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="265" pref="433" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="manualForecastingTitle" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="manualTitleDescription" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="variableTitle" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="variableTitleDescription" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="temperatureLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="humidityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="temperatureField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="humidityField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="airPressureLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="windLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="airPressureField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="windVelocityField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="manualTitleDescription1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane2" min="-2" pref="102" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="manualPredictButton" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="rainfallPredictionTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="colon" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rainfallPredictionField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="colon3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="executionTimeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rainfallPredictionTitle1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="92" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="manualForecastingTitle">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="NSimSun" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="2c" green="26" red="1b" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Manual Forecasting"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="variableTitle">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="NSimSun" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="2c" green="26" red="1b" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Variable Input"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="variableTitleDescription">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Please input the variable values to start prediction based on the real data"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="airPressureField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="air pressure value"/>
+                    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="airPressureFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="humidityField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="humidity value"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="humidityFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="windVelocityField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="wind velocity value"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="windVelocityFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="manualTitleDescription">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="This prediction uses the best membership function values obtained from the research"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="airPressureLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Air Pressure"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="temperatureLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Temperature"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="humidityLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Humidity"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="windLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Wind Velocity"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="temperatureField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="temperature value"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Text Cursor"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="temperatureFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="manualPredictButton">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="74" green="84" red="69" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="e4" red="e5" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/icon/business.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Predict Now"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Click the button to start rainfall prediction"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="manualPredictButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="rainfallPredictionTitle">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Rainfall Prediction"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="colon">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value=":"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="rainfallPredictionField">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rainfallPredictionFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="rainfallPredictionTitle1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Execution Time"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="colon3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value=":"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="executionTimeField">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="executionTimeFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable1">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="2" rowCount="4">
+                            <Column editable="false" title="Variable" type="java.lang.Object">
+                              <Data value="Temperature"/>
+                              <Data value="Humidity"/>
+                              <Data value="Air Pressure"/>
+                              <Data value="Wind Velocity"/>
+                            </Column>
+                            <Column editable="false" title="Value Range" type="java.lang.Object">
+                              <Data value="0 &lt; x &lt; 50"/>
+                              <Data value="30 &lt; x &lt; 120"/>
+                              <Data value="1000 &lt; x &lt; 1030"/>
+                              <Data value="0 &lt; x &lt; 15"/>
+                            </Column>
+                          </Table>
+                        </Property>
+                        <Property name="showGrid" type="boolean" value="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="manualTitleDescription1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Range of Input Value:"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="footerLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Mincho Demibold" size="10" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f3" green="fc" red="fe" type="rgb"/>
+            </Property>
+            <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="container"/>
+            </Property>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;Copyright \u00a9 2020-2024 Muhammad Rafi Akbar_09021282025065_TI Reguler 2020 - All Rights Reserved&quot;" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="headerLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Courier New" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f3" green="fc" red="fe" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="RAINFALL PREDICTION APP"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bmkgLogo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icon/Logo BMKG.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="unsriLogo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icon/Universitas-Sriwijaya-Logo.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="taglineLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ae" green="c0" red="d7" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="This application was developed as a requirement to complete the informatics undergraduate program at Sriwijaya University"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
