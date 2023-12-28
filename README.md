@@ -14,18 +14,20 @@ Installing the application via Git Bash CLI:
 + Opeh Git Bash
 + Choose the download location folder. For example: `cd d://downloads`
 + Type `git clone https://github.com/murafba/Rainfall-Prediction-App.git`
-+ Check the download folder and run the application
++ Check the download folder and open the project
 
 ## 4. RUNNING THE APP
 Here are the steps to run the app:
-1. Launch NetBeans.
-2. Open the downloaded project.
+1. Launch NetBeans
+2. Open the downloaded project
 > [!IMPORTANT]
 > If the default JDK used is below version 20, it needs to be changed. Here are the steps:
 > (a) Right-click on the project;
 > (b) Select *properties*;
 > (c) Choose the *Libraries* menu;
 > (d) In the *Java Platform* dropdown menu, select JDK version 20 or above.
-3. Open the *gui* package and select the **Main.java** class.
-4. Run the application.
+3. Open the *gui* package and select the **Main.java** class
+4. Run the application
+
+## 5. USING THE APP
 
