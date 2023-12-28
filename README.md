@@ -20,7 +20,7 @@ Installing the application via Git Bash CLI:
 Here are the steps to run the app:
 1. Launch NetBeans.
 2. Open the downloaded project.
-   > [!IMPORTANT]
+   [!IMPORTANT]
    > If the default JDK used is below version 20, it needs to be changed. Here are the steps:
    > a. Right-click on the project.
    > b. Select *properties*.
