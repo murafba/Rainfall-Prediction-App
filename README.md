@@ -25,7 +25,7 @@ Here are the steps to run the app:
 > (a) Right-click on the project;
 > (b) Select *properties*;
 > (c) Choose the *Libraries* menu;
-> (d) In the Java Platform dropdown menu, select JDK version 20 or above.
+> (d) In the *Java Platform* dropdown menu, select JDK version 20 or above.
 3. Open the *gui* package and select the **Main.java** class.
 4. Run the application.
 
