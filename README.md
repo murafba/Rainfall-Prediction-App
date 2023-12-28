@@ -13,7 +13,7 @@ The software required to support the operation of this application is as follows
 Installing the application via Git Bash CLI:
 + Opeh Git Bash
 + Choose the download location folder <br>
-  For example:<br?
+  For example:<br>
   `cd d://downloads`
 + Type `git clone https://github.com/murafba/Rainfall-Prediction-App.git`
 + Check the download folder and run the application
