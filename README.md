@@ -33,9 +33,12 @@ Here are the steps to run the app:
 There are 2 functional requirements of the application system:
 ![Use Case Diagram](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Gambar%20IV-10%20Diagram%20Use%20Case.drawio.png?raw=true)
 
-### 1) Predicting rainfall from a dataset
-Use case 1 is implemented on the app's Home Page. This page is utilized to conduct research on rainfall prediction to find the lowest MAPE value using genetic algorithm parameters: generation size, population size, crossover rate, and mutation rate.
+### 5.1 Predicting rainfall from a dataset
+Use case 1 is implemented on the app's Home Page. This page is utilized to conduct research on rainfall prediction to find the lowest MAPE value using genetic algorithm parameters: generation size, population size, crossover rate, and mutation rate. Afterwards, click the button to initiate the program.
 > [!CAUTION]
 > The values that can be input for crossover rate and mutation rate are limited to a range between 0 and 1!
 > If they are outside of this range, the program will display an error message. Additionally, each parameter only accepts numerical input data.
+
+Below is an example of the home page:
+
 
