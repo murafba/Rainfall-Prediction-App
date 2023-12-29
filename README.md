@@ -31,5 +31,5 @@ Here are the steps to run the app:
 
 ## 5. USING THE APP
 There are 2 functional requirements of the application system:
-![Use Case Diagram](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Gambar IV-10 Diagram Use Case.drawio.png?raw=true)
+![Use Case Diagram](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Gambar%20IV-10%20Diagram%20Use%20Case.drawio.png?raw=true)
 ### 1) Predicting rainfall from a dataset
