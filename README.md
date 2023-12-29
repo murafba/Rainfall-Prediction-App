@@ -35,16 +35,18 @@ There are 2 functional requirements of the application system:
 ![Use Case Diagram](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Gambar%20IV-10%20Diagram%20Use%20Case.drawio.png?raw=true "Usecase Diagram")
 *Fig. 1 Use Case Diagram*
 
-### 5.1 Predicting rainfall from a dataset
-Use case 1 is implemented on the app's Homepage. This page is utilized to conduct research on rainfall prediction to find the lowest MAPE value using genetic algorithm parameters: generation size, population size, crossover rate, and mutation rate. Afterwards, click the button to initiate the program.
+### 5.1 Predicting Rainfall From A Dataset
+Use case 1 is implemented on the app's homepage. This page is utilized to conduct research on rainfall prediction to find the lowest MAPE value using genetic algorithm parameters: generation size, population size, crossover rate, and mutation rate. Afterwards, click the button to initiate the program.
 > [!CAUTION]
 > The values that can be input for crossover rate and mutation rate are limited to a range between 0 and 1!
 > If they are outside of this range, the program will display an error message. Additionally, each parameter only accepts numerical input data.
 
-Below is an example of the home page:
+Below is the display of the homepage:
 
 ![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
 *Fig. 2 Homepage*
 
+### 5.2 Predicting Rainfall From New Data
+Use case 2 is implemented on the 'Manual Forecasting' page. This page is used to predict rainfall values from new data. The boundaries of the fuzzy membership functions used are taken from the chromosome that had the lowest MAPE value during the research, which was 27.8%. After inputting attribute values for temperature, air humidity, air pressure, and wind speed, click the 'Predict' button. Here iss the display of the 'Manual Forecasting' page.
 
 
