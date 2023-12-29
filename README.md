@@ -47,6 +47,7 @@ Below is the display of the homepage:
 *Fig. 2 Homepage*
 
 ### 5.2 Predicting Rainfall From New Data
-Use case 2 is implemented on the 'Manual Forecasting' page. This page is used to predict rainfall values from new data. The boundaries of the fuzzy membership functions used are taken from the chromosome that had the lowest MAPE value during the research, which was 27.8%. After inputting attribute values for temperature, air humidity, air pressure, and wind speed, click the 'Predict' button. Here iss the display of the 'Manual Forecasting' page.
+Use case 2 is implemented on the *Manual Forecasting* page. This page is used to predict rainfall values from new data. The boundaries of the fuzzy membership functions used are taken from the chromosome that had the lowest MAPE value during the research, which was 27.8%. After inputting attribute values for temperature, air humidity, air pressure, and wind speed, click the button. Here is the display of the *Manual Forecasting* page.
+
 
 
