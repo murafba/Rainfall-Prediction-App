@@ -30,4 +30,5 @@ Here are the steps to run the app:
 4. Run the application
 
 ## 5. USING THE APP
-
+There are 2 functional requirements of the application system:
+### 1) Predicting rainfall from a dataset
