@@ -33,7 +33,7 @@ Aplikasi ini dikembangkan untuk mendukung kegiatan penelitian penulis:
     <li>
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#5-menggunakan-aplikasi">5. MENGGUNAKAN APLIKASI</a>
       <ul>
-        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#51-predicting-rainfall-from-a-dataset">5.1 Predicting Rainfall From Dataset</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#51-prediksi-curah-hujan-dari-dataset">5.1 Prediksi Curah Hujan dari Dataset</a></li>
         <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#52-predicting-rainfall-from-new-data">5.2 Predicting Rainfall From New Data</a></li>
       </ul>
     </li>
@@ -55,20 +55,20 @@ Aplikasi ini dikembangkan untuk mendukung kegiatan penelitian penulis:
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#9-support-me">9. SUPPORT ME</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#10-how-to-contribute">10. HOW TO CONTRIBUTE</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#10-cara-berkontribusi">10. CARA BERKONTRIBUSI</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#11-license">11. LICENSE</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#11-lisensi">11. LISENSI</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#12-acknowledgement">12. ACKNOWLEDGEMENT</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#12-pengakuan">12. PENGAKUAN</a>
     </li>
   </ul>
 </details>
 
 
 ## 1. PENDAHULUAN
-Rainfall Prediction App adalah aplikasi berbasis desktop yang dikembangkan untuk memprediksi curah hujan di Kabupaten Banyuasin, Sumatera Selatan, Indonesia. Pengembangan aplikasi ini merupakan syarat wajib untuk mendapatkan gelar Sarjana Komputer dari Jurusan Informatika, Universitas Sriwijaya. Model prediksi pada aplikasi ini menggunakan *Fuzzy Inference System* (FIS) Tsukamoto yang dioptimasi dengan Algoritma Genetika (GA). Berdasarkan penelitian yang telah dilakukan, nilai MAPE terendah yang didapat dari prediksi curah hujan menggunakan model ini adalah 27.8%.
+Rainfall Prediction App adalah aplikasi berbasis desktop yang dikembangkan untuk memprediksi curah hujan di Kabupaten Banyuasin, Sumatera Selatan, Indonesia. Pengembangan aplikasi ini merupakan syarat wajib untuk mendapatkan gelar Sarjana Komputer dari Jurusan Informatika, Universitas Sriwijaya. Model prediksi pada aplikasi ini menggunakan *Fuzzy Inference System* (FIS) Tsukamoto yang dioptimasi dengan Algoritma Genetika (GA). Berdasarkan penelitian yang telah dilakukan, nilai MAPE terendah yang didapat dari prediksi curah hujan menggunakan model ini adalah 27.8%. Saya dinyatakan lulus dan mendapatkan nilai *A* dari proyek ini.
 
 
 ## 2. KEBUTUHAN PERANGKAT LUNAK
@@ -103,23 +103,22 @@ Berikut ini adalah langkah-langkah untuk menjalankan aplikasi:
 ## 5. MENGGUNAKAN APLIKASI
 Terdapat 2 kebutuhan fungsional pada sistem aplikasi:
 
-![Diagram Use Case](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Gambar%20IV-10%20Diagram%20Use%20Case.drawio.png?raw=true "Usecase Diagram")
-*Fig. 1 Use Case Diagram*
+![Diagram Use Case](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Use%20Case%20Diagram%20-%20Bahasa.drawio.png?raw=true "Usecase Diagram")
+*Gambar 1. Diagram Use Case*
 
-### 5.1 Predicting Rainfall From A Dataset
-Use case 1 is implemented on the app's homepage. This page is utilized to conduct research on rainfall prediction to find the lowest MAPE value using genetic algorithm parameters: generation size, population size, crossover rate, and mutation rate. Afterwards, click the button to initiate the program.
+### 5.1 Prediksi Curah Hujan dari Dataset
+Use case 1 terimplementasi pada halaman *Home*. Halaman ini digunakan untuk melakukan penelitian terhadap prediksi curah hujan untuk mencari nilai MAPE terendah dengan menggunakan parameter-parameter algoritma genetika: generation size, population size, crossover rate, dan mutation rate. Setelah itu, klik tombol untuk menjalankan program.
 
 > [!CAUTION]
-> The values that can be input for crossover rate and mutation rate are limited to a range between 0 and 1!
-> If they are outside of this range, the program will display an error message. Additionally, each parameter only accepts numerical input data.
+> Nilai input untuk parameter crossover rate dan mutation rate harus bernilai dari 0 hingga 1! Jika tidak, program akan menampilkan pesan eror. Selain itu, setiap parameter hanya dapat menerima input data numerik.
 
-Below is the display of the homepage, the activity, and the sequence diagram:
+Di bawah ini merupakan tampilan halaman *Home*, diagram aktivitas dan sequence:
 
 ![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
-*Fig. 2 Homepage*
+*Gambar 2. Halaman Home*
 
-![Activity Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%201.drawio.png?raw=true "Activity Diagram 1")
-*Fig. 3 Activity Diagram*
+![Diagram Aktivitas 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%201.drawio.png?raw=true "Activity Diagram 1")
+*Gambar 3. Diagram Aktivitas*
 
 ![Sequence Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Set.drawio.png?raw=true "Sequence Diagram 1")
 *Fig. 4 Sequence Diagram*
@@ -172,14 +171,14 @@ If you found my project useful, you can show you support by attributing to this 
 - [Saweria (for Indonesian)](https://saweria.co/murafba)
 
 
-## 10. HOW TO CONTRIBUTE
+## 10. CARA BERKONTRIBUSI
 Pull requests are not available. I will provide a dedicated repository related to the research where you can make pull requests on that page. If you have any questions or recommendations, please feel free to do so in the Issues section.
 
 
-## 11. LICENSE
+## 11. LISENSI
 Copyright &copy; 2023 Muhammad Rafi Akbar
-This project is under the [MIT](https://github.com/murafba/Rainfall-Prediction-App/blob/main/LICENSE) License.
+Proyek ini berada di bawah lisensi [MIT](https://github.com/murafba/Rainfall-Prediction-App/blob/main/LICENSE).
 
 
-## 12. ACKNOWLEDGEMENT
-As the developer, I'm aware that the developed application still has some shortcomings. Therefore, constructive criticism and suggestions from colleagues are highly appreciated.
+## 12. PENGAKUAN
+Saya selaku pengembang menyadari bahwa aplikasi yang dikembangkan masih terdapat kekurangan. Oleh karena itu, kritik dan saran yang membangun dari rekan-rekan sekalian sangat diperlukan.
