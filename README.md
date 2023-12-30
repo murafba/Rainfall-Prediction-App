@@ -1,5 +1,12 @@
 # Rainfall-Prediction-App
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href=""</li>
+  </ol>
+</details>
+
 ## 1. INTRODUCTION
 The Rainfall Prediction App is a desktop-based application developed to forecast rainfall in Banyuasin Regency, South Sumatera Province, Indonesia. Developing this application is a mandatory requirement to complete the Computer Science degree at the University of Sriwijaya. The prediction model in this application employs the Tsukamoto Fuzzy Inference System (FIS) optimized using the Genetic Algorithm (GA). Based on the conducted research, the lowest Mean Absolute Percentage Error (MAPE) achieved in predicting rainfall using this model is *27.8%*.
 
