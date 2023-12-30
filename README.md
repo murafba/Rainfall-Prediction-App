@@ -139,7 +139,7 @@ Use case 2 is implemented on the *Manual Forecasting* page. This page is used to
 ## 6. CLASS IMPLEMENTATION
 
 ### 6.1 `GeneticAlgorithm.java`
-This class is an abstract superclass that utilizes to receive input data from the `Main.java` class and then initiates the process of searching for chromosome that can generate membership function boundaries with the best fitness value. The stage starts from initializing the initial population to computing the fitness value.
+This class is an abstract superclass that utilized to receive input data from the `Main.java` class and then initiates the process of searching for chromosome that can generate membership function boundaries with the best fitness value. The stage starts from initializing the initial population to computing the fitness value.
 
 ### 6.2 `FISTsukamoto.java`
 This class is a subclass of `GeneticAlgorithm.java` used to calculate the rainfall value using the Tsukamoto FIS method, both from the homepage and the manual forecasting page. This class also computes the Absolute Percentage Error (APE) and Mean Absolute Percentage Error (MAPE), then returns the MAPE values to the superclass. The process begins with fuzzification, rule-based implication, defuzzification, and culminates in the evaluation of the MAPE value.
