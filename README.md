@@ -1,6 +1,7 @@
 # Rainfall-Prediction-App
 
-> OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM
+This app was developed to support the author's final research activities:
+## OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM
 
 <details>
   <summary>Table of Contents</summary>
