@@ -176,7 +176,7 @@ Pull requests tidak tersedia. Saya akan menyediakan repositori khusus terkait pe
 
 
 ## 11. LISENSI
-Copyright &copy; 2023 Muhammad Rafi Akbar
+Copyright &copy; 2023 Muhammad Rafi Akbar <br>
 Proyek ini berada di bawah lisensi [MIT](https://github.com/murafba/Rainfall-Prediction-App/blob/main/LICENSE).
 
 
