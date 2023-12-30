@@ -59,14 +59,16 @@ Use case 2 is implemented on the *Manual Forecasting* page. This page is used to
 ![Manual Forecasting Page](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-29%20232823.png?raw=true "Manual Forecastin Page")
 *Fig. 3 Manual Forecasting Page*
 
-## 6. About Research
+## 6. ABOUT THE RESEARCH
 If you're interested in my research, you can read my report at the following link.
 - Undergraduate thesis: [Repository of Sriwijaya University](http://repository.unsri.ac.id/137165/)
 
-## 7. About Author
+## 7. ABOUT THE AUTHOR
 > Hi! My name is Muhammad Rafi Akbar. You can call me Rafi. I'm a bachelor of computer science from [Sriwijaya University](https://unsri.ac.id) majoring in [Informatics](https://if.ilkom.unsri.ac.id). I have a keen interest in fuzzy logic and cryptography fields. You can reach out to me through the following accounts.
 - [LinkedIn](https:://linkedin.com/in/murafba)
 - [GitHub](https://github.com/murafba)
+
+## 8. SUPPORT ME
 
 
 
