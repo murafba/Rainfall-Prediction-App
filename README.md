@@ -114,6 +114,7 @@ This class is a subclass of `GeneticAlgorithm.java` used to calculate the rainfa
 This class represents the application's GUI, comprising the Homepage and the Manual Forecasting page.
 
 Here is the class diagram of the application:
+![Class Diagram](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Kelas.drawio.png?raw=true "Class Diagram")
 
 
 
