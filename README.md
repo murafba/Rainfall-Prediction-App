@@ -92,6 +92,7 @@ Use case 1 is implemented on the app's homepage. This page is utilized to conduc
 > If they are outside of this range, the program will display an error message. Additionally, each parameter only accepts numerical input data.
 
 Below is the display of the homepage:
+
 ![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
 *Fig. 2 Homepage*
 
@@ -114,6 +115,7 @@ This class is a subclass of `GeneticAlgorithm.java` used to calculate the rainfa
 This class represents the application's GUI, comprising the Homepage and the Manual Forecasting page.
 
 Here is the class diagram of the application:
+
 ![Class Diagram](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Kelas.drawio.png?raw=true "Class Diagram")
 
 
