@@ -45,14 +45,17 @@ This app was developed to support the author's final research activities:
   </ul>
 </details>
 
+
 ## 1. INTRODUCTION
 The Rainfall Prediction App is a desktop-based application developed to forecast rainfall in Banyuasin Regency, South Sumatera Province, Indonesia. Developing this application is a mandatory requirement to complete the Computer Science degree at the University of Sriwijaya. The prediction model in this application employs the Tsukamoto Fuzzy Inference System (FIS) optimized using the Genetic Algorithm (GA). Based on the conducted research, the lowest Mean Absolute Percentage Error (MAPE) achieved in predicting rainfall using this model is *27.8%*.
+
 
 ## 2. SOFTWARE REQUIREMENTS
 The software required to support the operation of this application is as follows:
 1. Windows OS 10/11 64-bit
 2. NetBeans IDE version 14 and above
 3. Java Development Kit (JDK) version 20 and above
+
 
 ## 3. INSTALLING THE PROJECT
 Installing the application via Git Bash CLI:
@@ -74,6 +77,7 @@ Here are the steps to run the app:
 3. Open the *gui* package and select the **Main.java** class
 4. Run the application
 
+
 ## 5. USING THE APP
 There are 2 functional requirements of the application system:
 
@@ -88,7 +92,6 @@ Use case 1 is implemented on the app's homepage. This page is utilized to conduc
 > If they are outside of this range, the program will display an error message. Additionally, each parameter only accepts numerical input data.
 
 Below is the display of the homepage:
-
 ![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
 *Fig. 2 Homepage*
 
@@ -98,6 +101,7 @@ Use case 2 is implemented on the *Manual Forecasting* page. This page is used to
 ![Manual Forecasting Page](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-29%20232823.png?raw=true "Manual Forecastin Page")
 *Fig. 3 Manual Forecasting Page*
 
+
 ## 6. CLASS IMPLEMENTATION
 
 ### 6.1 `GeneticAlgorithm.java`
@@ -106,14 +110,17 @@ This class is an abstract superclass that utilizes to receive input data from th
 ### 6.2 `FISTsukamoto.java`
 This class is a subclass of `GeneticAlgorithm.java` used to calculate the rainfall value using the Tsukamoto FIS method, both from the homepage and the manual forecasting page. This class also computes the Absolute Percentage Error (APE) and Mean Absolute Percentage Error (MAPE), then returns the MAPE values to the superclass. The process begins with fuzzification, rule-based implication, defuzzification, and culminates in the evaluation of the MAPE value.
 
+
 ## 7. ABOUT THE RESEARCH
 If you're interested in my research, you can read mine at the following link.
 - Undergraduate thesis: [OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM](http://repository.unsri.ac.id/137165/)
+
 
 ## 8. ABOUT THE AUTHOR
 > Hi! My name is Muhammad Rafi Akbar. You can call me Rafi. I'm a bachelor of computer science from [Sriwijaya University](https://unsri.ac.id) majoring in [Informatics](https://if.ilkom.unsri.ac.id). I have a keen interest in fuzzy logic and cryptography fields. You can reach out to me through the following accounts.
 - [LinkedIn](https://linkedin.com/in/murafba)
 - [GitHub](https://github.com/murafba)
+
 
 ## 9. SUPPORT ME
 If you found my project useful, you can show you support by attributing to this project and giving it a star on this repository. Alternatively, you can also provide material support through the following links:
@@ -121,8 +128,10 @@ If you found my project useful, you can show you support by attributing to this 
 - [Ko-fi](https://ko-fi.com/murafba)
 - [Saweria (for Indonesian)](https://saweria.co/murafba)
 
+
 ## 10. HOW TO CONTRIBUTE
 Pull requests are not available. I will provide a dedicated repository related to the research where you can make pull requests on that page. If you have any questions or recommendations, please feel free to do so in the Issues section.
+
 
 ## 11. LICENSE
 Copyright &copy; 2023 Muhammad Rafi Akbar
