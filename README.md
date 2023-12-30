@@ -3,7 +3,30 @@
 <details>
   <summary>Table of Contents</summary>
   <ul>
-    <li><a href=""</li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#1-introduction">1. INTRODUCTION</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#2-software-requirements">2. SOFTWARE REQUIREMENTS</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#3-installing-the-project">3. INSTALLING THE PROJECT</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#4-running-the-app">4. RUNNING THE APP</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#5-using-the-app">5. USING THE APP</a>
+    </li>
+    <li>
+      <ul>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#51-predicting-rainfall-from-a-dataset">5.1 Predicting Rainfall From Dataset</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#52-predicting-rainfall-from-new-data">5.2 Predicting Rainfall From New Data</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#6-about-the-research">6. ABOUT THE RESEARCH</a>
+    </li>
   </ul>
 </details>
 
@@ -65,7 +88,7 @@ If you're interested in my research, you can read my report at the following lin
 
 ## 7. ABOUT THE AUTHOR
 > Hi! My name is Muhammad Rafi Akbar. You can call me Rafi. I'm a bachelor of computer science from [Sriwijaya University](https://unsri.ac.id) majoring in [Informatics](https://if.ilkom.unsri.ac.id). I have a keen interest in fuzzy logic and cryptography fields. You can reach out to me through the following accounts.
-- [LinkedIn](https:://linkedin.com/in/murafba)
+- [LinkedIn](https://linkedin.com/in/murafba)
 - [GitHub](https://github.com/murafba)
 
 ## 8. SUPPORT ME
