@@ -32,27 +32,36 @@ This app was developed to support the author's final research activities:
     </li>
     <li>
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#5-using-the-app">5. USING THE APP</a>
-    </li>
-    <li>
       <ul>
         <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#51-predicting-rainfall-from-a-dataset">5.1 Predicting Rainfall From Dataset</a></li>
         <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#52-predicting-rainfall-from-new-data">5.2 Predicting Rainfall From New Data</a></li>
       </ul>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#6-about-the-research">6. ABOUT THE RESEARCH</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#6-class-implementation">6. CLASS IMPLEMENTATION</a>
+      <ul>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#61-geneticalgorithmjava">6.1 GeneticAlgorithm.java</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#62-fistsukamotojava">6.2 FISTsukamoto.java</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#63-mainjava">6.3 Main.java</a></li>
+      </ul>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#7-about-the-author">7. ABOUT THE AUTHOR</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#7-about-the-research">7. ABOUT THE RESEARCH</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#8-support-me">8. SUPPORT ME</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#8-about-the-author">8. ABOUT THE AUTHOR</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#9-how-to-contribute">9. HOW TO CONTRIBUTE</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#9-support-me">9. SUPPORT ME</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#10-license">10. LICENSE</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#10-how-to-contribute">10. HOW TO CONTRIBUTE</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#11-license">11. LICENSE</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#12-acknowledgement">12. ACKNOWLEDGEMENT</a>
     </li>
   </ul>
 </details>
@@ -169,6 +178,7 @@ Pull requests are not available. I will provide a dedicated repository related t
 ## 11. LICENSE
 Copyright &copy; 2023 Muhammad Rafi Akbar
 This project is under the [MIT](https://github.com/murafba/Rainfall-Prediction-App/blob/main/LICENSE) License.
+
 
 ## 12. ACKNOWLEDGEMENT
 As the developer, I'm aware that the developed application still has some shortcomings. Therefore, constructive criticism and suggestions from colleagues are highly appreciated.
