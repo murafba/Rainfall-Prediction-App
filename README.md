@@ -182,7 +182,3 @@ This project is under the [MIT](https://github.com/murafba/Rainfall-Prediction-A
 
 ## 12. ACKNOWLEDGEMENT
 As the developer, I'm aware that the developed application still has some shortcomings. Therefore, constructive criticism and suggestions from colleagues are highly appreciated.
-
-
-
-
