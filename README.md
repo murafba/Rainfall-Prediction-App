@@ -1,5 +1,7 @@
 # Rainfall-Prediction-App
 
+> OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM
+
 <details>
   <summary>Table of Contents</summary>
   <ul>
@@ -79,6 +81,7 @@ There are 2 functional requirements of the application system:
 
 ### 5.1 Predicting Rainfall From A Dataset
 Use case 1 is implemented on the app's homepage. This page is utilized to conduct research on rainfall prediction to find the lowest MAPE value using genetic algorithm parameters: generation size, population size, crossover rate, and mutation rate. Afterwards, click the button to initiate the program.
+
 > [!CAUTION]
 > The values that can be input for crossover rate and mutation rate are limited to a range between 0 and 1!
 > If they are outside of this range, the program will display an error message. Additionally, each parameter only accepts numerical input data.
@@ -94,30 +97,36 @@ Use case 2 is implemented on the *Manual Forecasting* page. This page is used to
 ![Manual Forecasting Page](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-29%20232823.png?raw=true "Manual Forecastin Page")
 *Fig. 3 Manual Forecasting Page*
 
-## 6. ABOUT THE RESEARCH
+## 6. CLASS IMPLEMENTATION
+
+### 6.1 `GeneticAlgorithm.java`
+This class is an abstract superclass that utilizes to receive input data from the `Main.java` class and then initiates the process of searching for chromosome that can generate membership function boundaries with the best fitness value. The stage starts from initializing the initial population to computing the fitness value.
+
+### 6.2 `FISTsukamoto.java`
+This class is a subclass of `GeneticAlgorithm.java` used to calculate the rainfall value using the Tsukamoto FIS method, both from the homepage and the manual forecasting page. This class also computes the Absolute Percentage Error (APE) and Mean Absolute Percentage Error (MAPE), then returns the MAPE values to the superclass. The process begins with fuzzification, rule-based implication, defuzzification, and culminates in the evaluation of the MAPE value.
+
+## 7. ABOUT THE RESEARCH
 If you're interested in my research, you can read mine at the following link.
 - Undergraduate thesis: [OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM](http://repository.unsri.ac.id/137165/)
 
-## 7. ABOUT THE AUTHOR
+## 8. ABOUT THE AUTHOR
 > Hi! My name is Muhammad Rafi Akbar. You can call me Rafi. I'm a bachelor of computer science from [Sriwijaya University](https://unsri.ac.id) majoring in [Informatics](https://if.ilkom.unsri.ac.id). I have a keen interest in fuzzy logic and cryptography fields. You can reach out to me through the following accounts.
 - [LinkedIn](https://linkedin.com/in/murafba)
 - [GitHub](https://github.com/murafba)
 
-## 8. SUPPORT ME
+## 9. SUPPORT ME
 If you found my project useful, you can show you support by attributing to this project and giving it a star on this repository. Alternatively, you can also provide material support through the following links:
 - [PayPal](https://paypal.me/murafba)
 - [Ko-fi](https://ko-fi.com/murafba)
 - [Saweria (for Indonesian)](https://saweria.co/murafba)
 
-## 9. HOW TO CONTRIBUTE
+## 10. HOW TO CONTRIBUTE
 Pull requests are not available. I will provide a dedicated repository related to the research where you can make pull requests on that page. If you have any questions or recommendations, please feel free to do so in the Issues section.
 
-## 10. LICENSE
+## 11. LICENSE
 Copyright &copy; 2023 Muhammad Rafi Akbar
-
-## 11. CLASS IMPLEMENTATION
-### 11.1 `GeneticAlgorithm.java`
 This project is under the [MIT](https://github.com/murafba/Rainfall-Prediction-App/blob/main/LICENSE) License.
+
 
 
 
