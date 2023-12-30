@@ -110,6 +110,12 @@ This class is an abstract superclass that utilizes to receive input data from th
 ### 6.2 `FISTsukamoto.java`
 This class is a subclass of `GeneticAlgorithm.java` used to calculate the rainfall value using the Tsukamoto FIS method, both from the homepage and the manual forecasting page. This class also computes the Absolute Percentage Error (APE) and Mean Absolute Percentage Error (MAPE), then returns the MAPE values to the superclass. The process begins with fuzzification, rule-based implication, defuzzification, and culminates in the evaluation of the MAPE value.
 
+### 6.3 `Main.java`
+This class represents the application's GUI, comprising the Homepage and the Manual Forecasting page.
+
+Here is the class diagram of the application:
+
+
 
 ## 7. ABOUT THE RESEARCH
 If you're interested in my research, you can read mine at the following link.
