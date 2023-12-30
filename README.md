@@ -95,7 +95,7 @@ Use case 2 is implemented on the *Manual Forecasting* page. This page is used to
 *Fig. 3 Manual Forecasting Page*
 
 ## 6. ABOUT THE RESEARCH
-If you're interested in my research, you can read my report at the following link.
+If you're interested in my research, you can read mine at the following link.
 - Undergraduate thesis: [OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM](http://repository.unsri.ac.id/137165/)
 
 ## 7. ABOUT THE AUTHOR
