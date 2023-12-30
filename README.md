@@ -114,6 +114,9 @@ Pull requests are not available. I will provide a dedicated repository related t
 
 ## 10. LICENSE
 Copyright &copy; 2023 Muhammad Rafi Akbar
+
+## 11. CLASS IMPLEMENTATION
+### 11.1 `GeneticAlgorithm.java`
 This project is under the [MIT](https://github.com/murafba/Rainfall-Prediction-App/blob/main/LICENSE) License.
 
 
