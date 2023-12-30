@@ -91,13 +91,16 @@ Use case 1 is implemented on the app's homepage. This page is utilized to conduc
 > The values that can be input for crossover rate and mutation rate are limited to a range between 0 and 1!
 > If they are outside of this range, the program will display an error message. Additionally, each parameter only accepts numerical input data.
 
-Below is the display of the homepage and the activity diagram:
+Below is the display of the homepage, the activity, and the sequence diagram:
 
 ![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
 *Fig. 2 Homepage*
 
 ![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
-*Fig. 3 Sequence Diagram*
+*Fig. 3 Activity Diagram*
+
+![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Set.drawio.png?raw=true "Homepage")
+*Fig. 4 Sequence Diagram*
 
 ### 5.2 Predicting Rainfall From New Data
 Use case 2 is implemented on the *Manual Forecasting* page. This page is used to predict rainfall values from new data. The boundaries of the fuzzy membership functions used are taken from the chromosome that had the lowest MAPE value during the research, which was 27.8%. After inputting attribute values for temperature, air humidity, air pressure, and wind speed, click the button. Here is the display of the *Manual Forecasting* page.
