@@ -34,11 +34,11 @@ Aplikasi ini dikembangkan untuk mendukung kegiatan penelitian penulis:
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#5-menggunakan-aplikasi">5. MENGGUNAKAN APLIKASI</a>
       <ul>
         <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#51-prediksi-curah-hujan-dari-dataset">5.1 Prediksi Curah Hujan dari Dataset</a></li>
-        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#52-predicting-rainfall-from-new-data">5.2 Predicting Rainfall From New Data</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#52-prediksi-curah-hujan-dari-data-baru">5.2 Prediksi Curah Hujan dari Data Baru</a></li>
       </ul>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#6-class-implementation">6. CLASS IMPLEMENTATION</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#6-implementasi-kelas">6. IMPLEMENTASI KELAS</a>
       <ul>
         <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#61-geneticalgorithmjava">6.1 GeneticAlgorithm.java</a></li>
         <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#62-fistsukamotojava">6.2 FISTsukamoto.java</a></li>
@@ -46,13 +46,13 @@ Aplikasi ini dikembangkan untuk mendukung kegiatan penelitian penulis:
       </ul>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#7-about-the-research">7. ABOUT THE RESEARCH</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#7-tentang-penelitian">7. TENTANG PENELITIAN</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#8-about-the-author">8. ABOUT THE AUTHOR</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#8-tentang-penulis">8. TENTANG PENULIS</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#9-support-me">9. SUPPORT ME</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#9-berikan-dukungan">9. BERIKAN DUKUNGAN</a>
     </li>
     <li>
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#10-cara-berkontribusi">10. CARA BERKONTRIBUSI</a>
@@ -114,57 +114,57 @@ Use case 1 terimplementasi pada halaman *Home*. Halaman ini digunakan untuk mela
 
 Di bawah ini merupakan tampilan halaman *Home*, diagram aktivitas dan sequence:
 
-![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
+![Halaman Home](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Halaman Home")
 *Gambar 2. Halaman Home*
 
-![Diagram Aktivitas 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%201.drawio.png?raw=true "Activity Diagram 1")
+![Diagram Aktivitas 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%201%20-%20Indonesia.drawio.png?raw=true "Diagram Aktivitas 1")
 *Gambar 3. Diagram Aktivitas*
 
-![Sequence Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Set.drawio.png?raw=true "Sequence Diagram 1")
-*Fig. 4 Sequence Diagram*
+![Sequence Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Set.drawio.png?raw=true "Diagram Sequence 1")
+*Gambar 4. Diagram Sequence 1*
 
-### 5.2 Predicting Rainfall From New Data
-Use case 2 is implemented on the *Manual Forecasting* page. This page is used to predict rainfall values from new data. The boundaries of the fuzzy membership functions used are taken from the chromosome that had the lowest MAPE value during the research, which was 27.8%. After inputting attribute values for temperature, air humidity, air pressure, and wind speed, click the button. Here is the display of the *Manual Forecasting* page.
+### 5.2 Prediksi Curah Hujan dari Data Baru
+Use case 2 terimplementasi dalam halaman *Manual Forecasting*. Halaman ini digunakan untuk memprediksi nilai curah hujan dari data baru. Batasan fungsi keanggotaan *fuzzy* yang digunakan diambil dari kromosom yang memiliki nilai MAPE terendah berdasarkan penelitian yang dilakukan yakni 27.8%. Setelah menginput nilai-nilai atribut suhu, kelembapan udara, tekanan udara, dan kecepatan angin, lalu klik tombol. Tampilan halaman ditunjukkan pada gambar berikut.
 
-![Manual Forecasting Page](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-29%20232823.png?raw=true "Manual Forecastin Page")
-*Fig. 5 Manual Forecasting Page*
+![Halaman Manual Forecasting](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-29%20232823.png?raw=true "Halaman Manual Forecasting")
+*Gambar 5. Halaman Manual Forecasting*
 
-![Activity Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%202.drawio.png?raw=true "Activity Diagram 2")
-*Fig. 6 Activity Diagram*
+![Diagram Aktivitas 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%202%20-%20Indonesia.drawio.png?raw=true "Diagram Aktivitas 2")
+*Gambar 6. Diagram Aktivitas*
 
-![Sequence Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Baru.drawio.png?raw=true "Sequence Diagram 2")
-*Fig. 7 Sequence Diagram*
+![Diagram Sequence 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Baru.drawio.png?raw=true "Sequence Diagram 2")
+*Gambar 7. Diagram Sequence*
 
 
-## 6. CLASS IMPLEMENTATION
+## 6. IMPLEMENTASI KELAS
 
 ### 6.1 `GeneticAlgorithm.java`
-This class is an abstract superclass that utilizes to receive input data from the `Main.java` class and then initiates the process of searching for chromosome that can generate membership function boundaries with the best fitness value. The stage starts from initializing the initial population to computing the fitness value.
+Kelas ini merupakan *superclass* abstrak yang digunakan untuk menerima data input dari kelas `Main.java` lalu memulai proses pencarian kromosom yang dapat membangkitkan batasan fungsi keanggotaan dengan nilai *fitness* terbaik. Tahapan dimulai dari menginisialisasikan populasi awal hingga perhitungan nilai *fitness*.
 
 ### 6.2 `FISTsukamoto.java`
-This class is a subclass of `GeneticAlgorithm.java` used to calculate the rainfall value using the Tsukamoto FIS method, both from the homepage and the manual forecasting page. This class also computes the Absolute Percentage Error (APE) and Mean Absolute Percentage Error (MAPE), then returns the MAPE values to the superclass. The process begins with fuzzification, rule-based implication, defuzzification, and culminates in the evaluation of the MAPE value.
+Kelas ini merupakan *subclass* dari kelas `GeneticAlgorithm.java` yang digunakan untuk menghitung nilai curah hujan menggunakan metode FIS Tsukamoto, dari halaman *Home* dan halaman *Manual Forecasting*. Kelas ini juga menghitung nilai Absolute Percentage Error (APE) dan Mean Absolute Percentage Error (MAPE), lalu mengembalikan nilai ke *superclass*-nya. Proses diawali dengan *fuzzification*, implikasi basis aturan *fuzzy*, *deffuzzification*, hingga evaluasi nilai MAPE.
 
 ### 6.3 `Main.java`
-This class represents the application's GUI, comprising the Homepage and the Manual Forecasting page.
+Kelas ini merepresentasikan GUI aplikasi yang terdiri dari halaman *Home* dan halaman *Manual Forecasting*.
 
-Here is the class diagram of the application:
+Berikut adalah diagram kelas aplikasi:
 
-![Class Diagram](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Kelas.drawio.png?raw=true "Class Diagram")
-*Fig. 8 Class Diagram*
+![Diagram Kelas](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Kelas.drawio.png?raw=true "Diagram Kelas")
+*Gambar 8. Diagram Kelas*
 
 
-## 7. ABOUT THE RESEARCH
+## 7. TENTANG PENELITIAN
 If you're interested in my research, you can read mine at the following link.
 - Undergraduate thesis: [OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM](http://repository.unsri.ac.id/137165/)
 
 
 ## 8. ABOUT THE AUTHOR
-> Hi! My name is Muhammad Rafi Akbar. You can call me Rafi. I'm a bachelor of computer science from [Sriwijaya University](https://unsri.ac.id) majoring in [Informatics](https://if.ilkom.unsri.ac.id). I have a keen interest in fuzzy logic and cryptography fields. You can reach out to me through the following accounts.
+> Hai! Nama saya Muhammad Rafi Akbar. Anda dapat memanggil saya Rafi. Saya adalah seorang sarjana komputer dari [Universitas Sriwijaya](https://unsri.ac.id), jurusan [Informatika](https://if.ilkom.unsri.ac.id). Saya memiliki ketertarikan di bidang *fuzzy logic* (logika samar) dan kriptografi. Anda dapat menghubungi saya melalui akun-akun berikut.
 - [LinkedIn](https://linkedin.com/in/murafba)
 - [GitHub](https://github.com/murafba)
 
 
-## 9. SUPPORT ME
+## 9. BERIKAN DUKUNGAN
 If you found my project useful, you can show you support by attributing to this project and giving it a star on this repository. Alternatively, you can also provide material support through the following links:
 - [PayPal](https://paypal.me/murafba)
 - [Ko-fi](https://ko-fi.com/murafba)
@@ -172,7 +172,7 @@ If you found my project useful, you can show you support by attributing to this 
 
 
 ## 10. CARA BERKONTRIBUSI
-Pull requests are not available. I will provide a dedicated repository related to the research where you can make pull requests on that page. If you have any questions or recommendations, please feel free to do so in the Issues section.
+Pull requests tidak tersedia. Saya akan menyediakan repositori khusus terkait penelitian saya dan Anda dapat melakukan *pull requests* pada halaman tersebut. Jika Anda memiliki pertanyaan atau rekomendasi, jangan ragu untuk mengirimnya pada bagian Issues.
 
 
 ## 11. LISENSI
