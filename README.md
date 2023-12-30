@@ -27,6 +27,18 @@
     <li>
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#6-about-the-research">6. ABOUT THE RESEARCH</a>
     </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#7-about-the-author">7. ABOUT THE AUTHOR</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#8-support-me">8. SUPPORT ME</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#9-how-to-contribute">9. HOW TO CONTRIBUTE</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#10-license">10. LICENSE</a>
+    </li>
   </ul>
 </details>
 
