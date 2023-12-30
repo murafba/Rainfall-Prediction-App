@@ -111,7 +111,7 @@ Use case 2 is implemented on the *Manual Forecasting* page. This page is used to
 ![Activity Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Baru.drawio.png?raw=true "Activity Diagram 2")
 *Fig. 6 Activity Diagram*
 
-![Sequence Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%201.drawio.png?raw=true "Sequence Diagram 2")
+![Sequence Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%202.drawio.png?raw=true "Sequence Diagram 2")
 *Fig. 7 Sequence Diagram*
 
 
