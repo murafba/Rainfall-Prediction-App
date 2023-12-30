@@ -96,10 +96,10 @@ Below is the display of the homepage, the activity, and the sequence diagram:
 ![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
 *Fig. 2 Homepage*
 
-![Activity Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%202.drawio.png?raw=true "Activity Diagram 1")
+![Activity Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%201.drawio.png?raw=true "Activity Diagram 1")
 *Fig. 3 Activity Diagram*
 
-![Sequence Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%201.drawio.png?raw=true "Sequence Diagram 1")
+![Sequence Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Set.drawio.png?raw=true "Sequence Diagram 1")
 *Fig. 4 Sequence Diagram*
 
 ### 5.2 Predicting Rainfall From New Data
@@ -108,10 +108,10 @@ Use case 2 is implemented on the *Manual Forecasting* page. This page is used to
 ![Manual Forecasting Page](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-29%20232823.png?raw=true "Manual Forecastin Page")
 *Fig. 5 Manual Forecasting Page*
 
-![Activity Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%201.drawio.png?raw=true "Activity Diagram 2")
+![Activity Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Activity%20Diagram%202.drawio.png?raw=true "Activity Diagram 2")
 *Fig. 6 Activity Diagram*
 
-![Sequence Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%202.drawio.png?raw=true "Sequence Diagram 2")
+![Sequence Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Baru.drawio.png?raw=true "Sequence Diagram 2")
 *Fig. 7 Sequence Diagram*
 
 
