@@ -96,17 +96,23 @@ Below is the display of the homepage, the activity, and the sequence diagram:
 ![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
 *Fig. 2 Homepage*
 
-![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Homepage")
+![Activity Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-28%20224822.png?raw=true "Activity Diagram 1")
 *Fig. 3 Activity Diagram*
 
-![Homepage](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Set.drawio.png?raw=true "Homepage")
+![Sequence Diagram 1](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%201.drawio.png?raw=true "Sequence Diagram 1")
 *Fig. 4 Sequence Diagram*
 
 ### 5.2 Predicting Rainfall From New Data
 Use case 2 is implemented on the *Manual Forecasting* page. This page is used to predict rainfall values from new data. The boundaries of the fuzzy membership functions used are taken from the chromosome that had the lowest MAPE value during the research, which was 27.8%. After inputting attribute values for temperature, air humidity, air pressure, and wind speed, click the button. Here is the display of the *Manual Forecasting* page.
 
 ![Manual Forecasting Page](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Screenshot%202023-12-29%20232823.png?raw=true "Manual Forecastin Page")
-*Fig. 3 Manual Forecasting Page*
+*Fig. 5 Manual Forecasting Page*
+
+![Activity Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%20Prediksi%20Curah%20hujan%20dari%20Data%20Baru.drawio.png?raw=true "Activity Diagram 2")
+*Fig. 6 Activity Diagram*
+
+![Sequence Diagram 2](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Sequence%201.drawio.png?raw=true "Sequence Diagram 2")
+*Fig. 7 Sequence Diagram*
 
 
 ## 6. CLASS IMPLEMENTATION
@@ -123,7 +129,7 @@ This class represents the application's GUI, comprising the Homepage and the Man
 Here is the class diagram of the application:
 
 ![Class Diagram](https://github.com/murafba/Rainfall-Prediction-App/blob/main/src/gui/Diagram%20Kelas.drawio.png?raw=true "Class Diagram")
-
+*Fig. 8 Class Diagram*
 
 
 ## 7. ABOUT THE RESEARCH
@@ -151,6 +157,9 @@ Pull requests are not available. I will provide a dedicated repository related t
 ## 11. LICENSE
 Copyright &copy; 2023 Muhammad Rafi Akbar
 This project is under the [MIT](https://github.com/murafba/Rainfall-Prediction-App/blob/main/LICENSE) License.
+
+## 12. ACKNOWLEDGEMENT
+
 
 
 
