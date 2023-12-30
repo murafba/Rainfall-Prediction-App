@@ -71,7 +71,7 @@ If you're interested in my research, you can read my report at the following lin
 ## 8. SUPPORT ME
 If you found my project useful, you can show you support by attributing to this project and giving it a star on this repository. Alternatively, you can also provide material support through the following links:
 - [PayPal](https://paypal.me/murafba)
-- [Ko-fi](https://ko-fi/murafba)
+- [Ko-fi](https://ko-fi.com/murafba)
 - [Saweria (for Indonesian)](https://saweria.co/murafba)
 
 
