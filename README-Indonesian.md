@@ -155,7 +155,7 @@ Berikut adalah diagram kelas aplikasi:
 
 ## 7. TENTANG PENELITIAN
 Jika Anda tertarik pada penelitian saya, Anda dapat membacanya pada pranala berikut.
-- Undergraduate thesis: [OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM](http://repository.unsri.ac.id/137165/)
+- Skripsi: [OPTIMASI FIS TSUKAMOTO DALAM MEMPREDIKSI CURAH HUJAN DI KABUPATEN BANYUASIN MENGGUNAKAN ALGORITMA GENETIKA](http://repository.unsri.ac.id/137165/)
 
 
 ## 8. TENTANG PENULIS
