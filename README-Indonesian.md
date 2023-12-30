@@ -158,7 +158,7 @@ If you're interested in my research, you can read mine at the following link.
 - Undergraduate thesis: [OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM](http://repository.unsri.ac.id/137165/)
 
 
-## 8. ABOUT THE AUTHOR
+## 8. TENTANG PENULIS
 > Hai! Nama saya Muhammad Rafi Akbar. Anda dapat memanggil saya Rafi. Saya adalah seorang sarjana komputer dari [Universitas Sriwijaya](https://unsri.ac.id), jurusan [Informatika](https://if.ilkom.unsri.ac.id). Saya memiliki ketertarikan di bidang *fuzzy logic* (logika samar) dan kriptografi. Anda dapat menghubungi saya melalui akun-akun berikut.
 - [LinkedIn](https://linkedin.com/in/murafba)
 - [GitHub](https://github.com/murafba)
