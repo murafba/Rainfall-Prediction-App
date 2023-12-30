@@ -19,49 +19,49 @@ Aplikasi ini dikembangkan untuk mendukung kegiatan penelitian penulis:
   <summary>Daftar Isi</summary>
   <ul>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#1-pendahuluan">1. PENDAHULUAN</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#1-pendahuluan">1. PENDAHULUAN</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#2-kebutuhan-perangkat-lunak">2. KEBUTUHAN PERANGKAT LUNAK</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#2-kebutuhan-perangkat-lunak">2. KEBUTUHAN PERANGKAT LUNAK</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#3-menginstal-proyek">3. MENGINSTAL PROYEK</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#3-menginstal-proyek">3. MENGINSTAL PROYEK</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#4-menjalankan-aplikasi">4. MENJALANKAN APLIKASI</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#4-menjalankan-aplikasi">4. MENJALANKAN APLIKASI</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#5-menggunakan-aplikasi">5. MENGGUNAKAN APLIKASI</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#5-menggunakan-aplikasi">5. MENGGUNAKAN APLIKASI</a>
       <ul>
-        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#51-prediksi-curah-hujan-dari-dataset">5.1 Prediksi Curah Hujan dari Dataset</a></li>
-        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#52-prediksi-curah-hujan-dari-data-baru">5.2 Prediksi Curah Hujan dari Data Baru</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#51-prediksi-curah-hujan-dari-dataset">5.1 Prediksi Curah Hujan dari Dataset</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#52-prediksi-curah-hujan-dari-data-baru">5.2 Prediksi Curah Hujan dari Data Baru</a></li>
       </ul>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#6-implementasi-kelas">6. IMPLEMENTASI KELAS</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#6-implementasi-kelas">6. IMPLEMENTASI KELAS</a>
       <ul>
-        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#61-geneticalgorithmjava">6.1 GeneticAlgorithm.java</a></li>
-        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#62-fistsukamotojava">6.2 FISTsukamoto.java</a></li>
-        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#63-mainjava">6.3 Main.java</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#61-geneticalgorithmjava">6.1 GeneticAlgorithm.java</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#62-fistsukamotojava">6.2 FISTsukamoto.java</a></li>
+        <li><a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#63-mainjava">6.3 Main.java</a></li>
       </ul>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#7-tentang-penelitian">7. TENTANG PENELITIAN</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#7-tentang-penelitian">7. TENTANG PENELITIAN</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#8-tentang-penulis">8. TENTANG PENULIS</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#8-tentang-penulis">8. TENTANG PENULIS</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#9-berikan-dukungan">9. BERIKAN DUKUNGAN</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#9-berikan-dukungan">9. BERIKAN DUKUNGAN</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#10-cara-berkontribusi">10. CARA BERKONTRIBUSI</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#10-cara-berkontribusi">10. CARA BERKONTRIBUSI</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#11-lisensi">11. LISENSI</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#11-lisensi">11. LISENSI</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#12-pengakuan">12. PENGAKUAN</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#12-pengakuan">12. PENGAKUAN</a>
     </li>
   </ul>
 </details>
