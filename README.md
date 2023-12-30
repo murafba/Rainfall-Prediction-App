@@ -167,7 +167,6 @@ If you're interested in my research, you can read mine at the following link.
 ## 9. SUPPORT ME
 If you found my project useful, you can show you support by attributing to this project and giving it a star on this repository. Alternatively, you can also provide material support through the following links:
 - [PayPal](https://paypal.me/murafba)
-- [Ko-fi](https://ko-fi.com/murafba)
 - [Saweria (for Indonesian)](https://saweria.co/murafba)
 
 
@@ -176,7 +175,7 @@ Pull requests are not available. I will provide a dedicated repository related t
 
 
 ## 11. LICENSE
-Copyright &copy; 2023 Muhammad Rafi Akbar
+Copyright &copy; 2023 Muhammad Rafi Akbar <br>
 This project is under the [MIT](https://github.com/murafba/Rainfall-Prediction-App/blob/main/LICENSE) License.
 
 
