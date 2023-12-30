@@ -154,7 +154,7 @@ Berikut adalah diagram kelas aplikasi:
 
 
 ## 7. TENTANG PENELITIAN
-If you're interested in my research, you can read mine at the following link.
+Jika Anda tertarik pada penelitian saya, Anda dapat membacanya pada pranala berikut.
 - Undergraduate thesis: [OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM](http://repository.unsri.ac.id/137165/)
 
 
@@ -165,9 +165,9 @@ If you're interested in my research, you can read mine at the following link.
 
 
 ## 9. BERIKAN DUKUNGAN
-If you found my project useful, you can show you support by attributing to this project and giving it a star on this repository. Alternatively, you can also provide material support through the following links:
+Apabila menurut Anda proyek saya cukup bermanfaat, Anda dapat memberikan dukungan dengan cara memberikan atribusi pada proyek ini dan memberikan bintang pada repositori ini. Selain itu, Anda juga dapat memberikan dukungan secara materi melalui pranala berikut.
 - [PayPal](https://paypal.me/murafba)
-- [Saweria (for Indonesian)](https://saweria.co/murafba)
+- [Saweria](https://saweria.co/murafba)
 
 
 ## 10. CARA BERKONTRIBUSI
