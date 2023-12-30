@@ -4,6 +4,18 @@ This app was developed to support the author's final research activities:
 ## OPTIMIZATION OF TSUKAMOTO FIS IN PREDICTING RAINFALL IN BANYUASIN REGENCY USING GENETIC ALGORITHM
 
 <details>
+  <summary>Select The Language</summary>
+  <ul>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md">Bahasa Indonesia</a>
+    </li>
+    <li>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md">English</a>
+    </li>
+  </ul>
+</details>
+
+<details>
   <summary>Table of Contents</summary>
   <ul>
     <li>
