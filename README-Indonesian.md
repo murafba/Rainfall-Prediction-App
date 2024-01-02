@@ -22,7 +22,7 @@ Aplikasi ini dikembangkan untuk mendukung kegiatan penelitian penulis:
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#1-pendahuluan">1. PENDAHULUAN</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#2-kebutuhan-perangkat-lunak">2. KEBUTUHAN PERANGKAT LUNAK</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#2-kebutuhan-perangkat-lunak--perangkat-keras">2. KEBUTUHAN PERANGKAT LUNAK & PERANGKAT KERAS</a>
     </li>
     <li>
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README-Indonesian.md#3-menginstal-proyek">3. MENGINSTAL PROYEK</a>
