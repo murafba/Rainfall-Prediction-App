@@ -71,7 +71,10 @@ Aplikasi ini dikembangkan untuk mendukung kegiatan penelitian penulis:
 Rainfall Prediction App adalah aplikasi berbasis desktop yang dikembangkan untuk memprediksi curah hujan di Kabupaten Banyuasin, Sumatera Selatan, Indonesia. Pengembangan aplikasi ini merupakan syarat wajib untuk mendapatkan gelar Sarjana Komputer dari Jurusan Informatika, Universitas Sriwijaya. Model prediksi pada aplikasi ini menggunakan *Fuzzy Inference System* (FIS) Tsukamoto yang dioptimasi dengan Algoritma Genetika (GA). Berdasarkan penelitian yang telah dilakukan, nilai MAPE terendah yang didapat dari prediksi curah hujan menggunakan model ini adalah 27.8%. Saya dinyatakan lulus dan mendapatkan nilai *A* dari proyek ini.
 
 
-## 2. KEBUTUHAN PERANGKAT LUNAK
+## 2. KEBUTUHAN PERANGKAT LUNAK & PERANGKAT KERAS
+Perangkat keras yang diperlukan untuk mengoperasikan aplikasi ini adalah sebagai berikut:
+1. Laptop atau PC dengan resolusi *display* minimum 1280 * 720
+
 Perangkat lunak yang diperlukan untuk mengoperasikan aplikasi ini adalah sebagai berikut:
 1. Windows OS 10/11 64-bit
 2. NetBeans IDE versi 14 ke atas
@@ -96,7 +99,7 @@ Berikut ini adalah langkah-langkah untuk menjalankan aplikasi:
 > (b) Pilih *properties*;
 > (c) Klik menu *Libraries*;
 > (d) Pada menu *dropdown* *Java Platform*, pilihi versi JDK 20 ke atas.
-3. Buka *package* *gui* dan pilih kelas **Main.java**
+3. Buka *package* *gui* dan pilih kelas `Main.java`
 4. Jalankan aplikasi
 
 
