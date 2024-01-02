@@ -22,7 +22,7 @@ This app was developed to support the author's final research activities:
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#1-introduction">1. INTRODUCTION</a>
     </li>
     <li>
-      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#2-software-requirements">2. SOFTWARE REQUIREMENTS</a>
+      <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#2-hardware-&-software-requirements">2. SOFTWARE REQUIREMENTS</a>
     </li>
     <li>
       <a href="https://github.com/murafba/Rainfall-Prediction-App/blob/main/README.md#3-installing-the-project">3. INSTALLING THE PROJECT</a>
