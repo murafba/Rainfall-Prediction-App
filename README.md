@@ -73,7 +73,7 @@ The Rainfall Prediction App is a desktop-based application developed to forecast
 
 ## 2. HARDWARE & SOFTWARE REQUIREMENTS
 The hardware required to support the operation of this application is as follows:
-1. Laptop or PC with a minimum display resoulution of 1280 * 720
+1. Laptop or PC with a minimum display resolution of 1280 * 720
 
 The software required to support the operation of this application is as follows:
 1. Windows OS 10/11 64-bit
@@ -98,7 +98,7 @@ Here are the steps to run the app:
 > (b) Select *properties*;
 > (c) Choose the *Libraries* menu;
 > (d) In the *Java Platform* dropdown menu, select JDK version 20 or above.
-3. Open the *gui* package and select the **Main.java** class
+3. Open the *gui* package and select the `Main.java` class
 4. Run the application
 
 
