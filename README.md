@@ -168,7 +168,7 @@ If you're interested in my research, you can read mine at the following link.
 
 
 ## 9. SUPPORT ME
-If you found my project useful, you can show you support by attributing to this project and giving it a star on this repository. Alternatively, you can also provide material support through the following links:
+If you found my project useful, you can show your support by attributing to this project and giving it a star on this repository. Alternatively, you can also provide material support through the following links:
 - [PayPal](https://paypal.me/murafba)
 - [Saweria (for Indonesian)](https://saweria.co/murafba)
 
