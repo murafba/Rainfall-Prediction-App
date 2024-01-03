@@ -68,7 +68,7 @@ This app was developed to support the author's final research activities:
 
 
 ## 1. INTRODUCTION
-The Rainfall Prediction App is a desktop-based application developed to forecast rainfall in Banyuasin Regency, South Sumatera Province, Indonesia. Developing this application is a mandatory requirement to obtain the Bachelor of Computer Science degree from the University of Sriwijaya. The prediction model in this application employs the Tsukamoto Fuzzy Inference System (FIS) optimized using the Genetic Algorithm (GA). Based on the conducted research, the lowest Mean Absolute Percentage Error (MAPE) achieved in predicting rainfall using this model is *27.8%*. I passed and received an *A* grade for this project.
+The Rainfall Prediction App is a desktop-based application developed to forecast rainfall in Banyuasin Regency, South Sumatera Province, Indonesia. Developing this application is a mandatory requirement to obtain the Bachelor of Computer Science degree from the University of Sriwijaya. The prediction model in this application employs the Tsukamoto Fuzzy Inference System (FIS) optimized using the Genetic Algorithm (GA). Based on the conducted research, the lowest Mean Absolute Percentage Error (MAPE) achieved in predicting rainfall using this model is *27.8%*. The monthly climate data of Banyuasin Regency from January 2018 to December 2022 will be utilized for rainfall prediction. The climate data comprises attributes such as temperature, air humidity, air pressure, wind velocity, and rainfall.
 
 
 ## 2. HARDWARE & SOFTWARE REQUIREMENTS
