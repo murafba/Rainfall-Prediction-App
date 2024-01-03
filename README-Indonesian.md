@@ -68,7 +68,7 @@ Aplikasi ini dikembangkan untuk mendukung kegiatan penelitian penulis:
 
 
 ## 1. PENDAHULUAN
-Rainfall Prediction App adalah aplikasi berbasis desktop yang dikembangkan untuk memprediksi curah hujan di Kabupaten Banyuasin, Sumatera Selatan, Indonesia. Pengembangan aplikasi ini merupakan syarat wajib untuk mendapatkan gelar Sarjana Komputer dari Jurusan Informatika, Universitas Sriwijaya. Model prediksi pada aplikasi ini menggunakan *Fuzzy Inference System* (FIS) Tsukamoto yang dioptimasi dengan Algoritma Genetika (GA). Berdasarkan penelitian yang telah dilakukan, nilai MAPE terendah yang didapat dari prediksi curah hujan menggunakan model ini adalah 27.8%. Saya dinyatakan lulus dan mendapatkan nilai *A* dari proyek ini.
+Rainfall Prediction App adalah aplikasi berbasis desktop yang dikembangkan untuk memprediksi curah hujan di Kabupaten Banyuasin, Sumatera Selatan, Indonesia. Pengembangan aplikasi ini merupakan syarat wajib untuk mendapatkan gelar Sarjana Komputer dari Jurusan Informatika, Universitas Sriwijaya. Model prediksi pada aplikasi ini menggunakan *Fuzzy Inference System* (FIS) Tsukamoto yang dioptimasi dengan Algoritma Genetika (GA). Berdasarkan penelitian yang telah dilakukan, nilai MAPE terendah yang didapat dari prediksi curah hujan menggunakan model ini adalah 27.8%. Data yang digunakan pada penelitian ini adalah data iklim bulanan Kabupaten Banyuasin dari Januari 2018 hingga Desember 2022. Data iklim terdiri dari atribut suhu, kelembapan, tekanan udara, kecepatan angin, dan curah hujan.
 
 
 ## 2. KEBUTUHAN PERANGKAT LUNAK & PERANGKAT KERAS
